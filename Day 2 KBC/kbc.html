@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kaun Banega Crorepati</title>
+    <link rel="stylesheet" href="kbc.css">
+   
+</head>
+
+<body>
+    <audio controls id="autop5lay" style="display: none;"><source src="kbcsongs.mp3"></audio>
+    
+    <div id="quiz-container">
+        <h2 style="color: black; font-family: Verdana, Geneva, Tahoma, sans-serif;">KBC Quiz Game</h2>
+    <div id="play"  style="display: none;"> 
+
+    <div id="question" class="Quesop"> </div>
+    <div id="options">
+        <button class="option" onclick="submitAnswer('a')">Option A</button>
+        <button class="option" onclick="submitAnswer('b')">Option B</button>
+        <button class="option" onclick="submitAnswer('c')">Option C</button>
+        <button class="option" onclick="submitAnswer('d')">Option D</button>
+    </div>
+
+</div>
+    <div id="timer">Time Left: <span id="time">30</span> seconds</div>
+    <div id="prize">Prize: <span id="prizeAmount">0</span></div>
+
+    <button id="start" onclick="startGame()">Game Start</button>
+    </div>
+    <script src="index.js"></script>

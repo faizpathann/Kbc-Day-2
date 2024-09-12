@@ -1,0 +1,70 @@
+body{
+    background-image: url("kbc23.jpg");
+    background-size: cover;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+#quiz-container{
+    
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    background: rgb(125, 135, 229);
+    justify-content: center;
+    height: 50%;
+    width: 40%;
+    border-radius: 50px;
+}
+#question{
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+   }
+.Quesop{
+     display: flex;
+    padding: 10px;
+}
+
+#options-container button:hover {
+    background-color: #0056b3;
+}
+
+#options-container button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.option{
+    background-color: aqua;
+    width: 90%;
+    height: 30px;
+    display: flex;
+    border-radius: 20px;
+    margin:10px ;
+    cursor: pointer;
+    font-size: 20px;
+    font-style: italic;
+
+}
+#start{
+    color: white;
+    background-color: blue;
+    height: 60px; 
+    width: 50%;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 28px;
+}
+#start  :hover{
+    background-color: aliceblue;
+
+}
